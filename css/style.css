@@ -1,10 +1,23 @@
-/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Required height of parents of the Half Page Carousel for proper displaying
+   carousel itself */
 html,
 body,
 header,
 #intro,
 .view {
   height: 100%; }
+
+#intro {
+    /*background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 @media (max-width: 740px) {
   .full-page-intro {
